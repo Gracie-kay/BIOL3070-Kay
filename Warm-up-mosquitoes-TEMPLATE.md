@@ -1,10 +1,14 @@
 Warm-up mini-Report: Mosquito Blood Hosts in Salt Lake City, Utah
 ================
 Gracie Kay
-2025-10-09
+2025-10-11
 
 - [ABSTRACT](#abstract)
 - [BACKGROUND](#background)
+  - [Questions](#questions)
+  - [Hypothesis](#hypothesis)
+  - [Prediction](#prediction)
+- [METHODS](#methods)
   - [Fill in first analysis](#fill-in-first-analysis)
   - [Fill in second analysis/plot](#fill-in-second-analysisplot)
 - [DISCUSSION](#discussion)
@@ -48,16 +52,28 @@ from house finches, these birds could represent important local
 amplifying hosts for WNV. We extracted and sequenced vertebrate DNA from
 mosquito blood meals to identify host species. We then compared host
 composition between trapping locations with and without confirmed
-WNV-positive mosquito pools. \# STUDY QUESTION and HYPOTHESIS \##
-Questions  
+WNV-positive mosquito pools. \# STUDY QUESTION and HYPOTHESIS
+
+## Questions
+
 Which bird species are most strongly associated with West Nile virus
-transmission in Salt Lake City, Utah? \## Hypothesis House finches
-contribute disproportionately to WNV transmission because they develop
-sufficiently high viremia levels to infect feeding mosquitoes. \##
-Prediction If house finches are key amplifying hosts, then mosquito
-collection sites with a higher frequency of house finch blood meals will
-also show a greater number of WNV-positive mosquito pools. \# METHODS We
-analyzed the dataset “bloodmeal_plusWNV_for_BIOL3070.csv”, which
+transmission in Salt Lake City, Utah?
+
+## Hypothesis
+
+House finches contribute disproportionately to WNV transmission because
+they develop sufficiently high viremia levels to infect feeding
+mosquitoes.
+
+## Prediction
+
+If house finches are key amplifying hosts, then mosquito collection
+sites with a higher frequency of house finch blood meals will also show
+a greater number of WNV-positive mosquito pools.
+
+# METHODS
+
+We analyzed the dataset “bloodmeal_plusWNV_for_BIOL3070.csv”, which
 includes, for each trapping location, (1) a binary indicator of WNV
 detection (loc_positives, 0 = negative, 1 = positive) and (2) binary
 presence columns for identified host species (host\_\*). All analyses
@@ -233,4 +249,4 @@ disease forecasting.
     Dis. 2003 Mar;9(3):311-22. <https://doi.org/10.3201/eid0903.020628>
 
 2.  ChatGPT. OpenAI, version Jan 2025. Used as a reference for functions
-    such as plot() and to correct syntax errors. Accessed 2025-10-09.
+    such as plot() and to correct syntax errors. Accessed 2025-10-11.
